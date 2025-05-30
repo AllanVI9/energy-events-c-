@@ -29,7 +29,6 @@ O sistema foi idealizado para demonstrar, de forma didática, como diferentes ti
    
       Usuário: admin
 
-   
       Senha: 1234
 
 4. Só usar agora.
