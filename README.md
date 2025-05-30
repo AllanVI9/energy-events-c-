@@ -26,40 +26,43 @@ O sistema foi idealizado para demonstrar, de forma didática, como diferentes ti
      cd energy-events
 
 2. Login:
-   
+    ```bash
       Usuário: admin
-
       Senha: 1234
 
 4. Só usar agora.
-
-## 📦 Estrutura de Pastas
-
-/EnergyEvents
-│
-├── Models/                      # Classes de domínio
-│   ├── Dispositivo.cs              # Classe abstrata base
-│   ├── EquipamentoEssencial.cs     # Permanece ligado em tensão baixa
-│   ├── EquipamentoNaoEssencial.cs  # Desliga com tensão inferior a 110V
-│
-├── Services/                    # Camada de serviços
-│   ├── MonitorDeEnergia.cs         # Verificação de tensão e controle de dispositivos
-│   ├── Logger.cs                   # Registro de eventos
-│   ├── AlertaService.cs            # Envio de alertas no console
-│   ├── Relatorio.cs                # Geração de status dos dispositivos
-│   ├── LoginService.cs             # Autenticação do usuário
-│   └── MenuService.cs              # Menu e controle de opções do sistema
-│
-└── Program.cs                   # Ponto de entrada da aplicação
-
+   
 ## 💻 Tecnologias Utilizadas
 
-Linguagem: C#
+Linguagem: 
 
-Framework: .NET 6 ou superior
+      C#
+
+Framework: 
+   
+      .NET 6 ou superior
 
 Paradigmas aplicados:
-    - Programação Orientada a Objetos (POO)
-    - Encapsulamento
-    - Herança
-    - Separação de responsabilidades (SRP)
+
+       - Programação Orientada a Objetos (POO)
+       - Encapsulamento
+       - Herança
+       - Separação de responsabilidades (SRP)
+
+
+## 📦 Estrutura de Pastas
+   ```bash
+/EnergyEvents
+        └── Models/                      # Classes de domínio
+                  Dispositivo.cs              # Classe abstrata base
+                  EquipamentoEssencial.cs     # Permanece ligado em tensão baixa
+                  EquipamentoNaoEssencial.cs  # Desliga com tensão inferior a 110V
+      └──Services/                    # Camada de serviços
+                   MonitorDeEnergia.cs         # Verificação de tensão e controle de dispositivos
+                  Logger.cs                   # Registro de eventos
+                   AlertaService.cs            # Envio de alertas no console
+                  Relatorio.cs                # Geração de status dos dispositivos
+                   LoginService.cs             # Autenticação do usuário
+                   MenuService.cs              # Menu e controle de opções do sistema
+      └── Program.cs                   # Ponto de entrada da aplicação
+
