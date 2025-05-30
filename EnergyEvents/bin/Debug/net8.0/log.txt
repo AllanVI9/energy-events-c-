@@ -1,0 +1,10 @@
+29/05/2025 19:34:37: Tensão registrada: 120V
+29/05/2025 19:34:46: Tensão registrada: 220V
+29/05/2025 19:34:49: Tensão registrada: 300V
+29/05/2025 19:34:52: Tensão registrada: 400V
+29/05/2025 19:34:54: Tensão registrada: 600V
+29/05/2025 19:34:58: Tensão registrada: 600V
+29/05/2025 19:35:01: Tensão registrada: 500V
+29/05/2025 19:35:05: Tensão registrada: 400V
+29/05/2025 19:35:06: Tensão registrada: 100V
+29/05/2025 19:35:09: Tensão registrada: 100V

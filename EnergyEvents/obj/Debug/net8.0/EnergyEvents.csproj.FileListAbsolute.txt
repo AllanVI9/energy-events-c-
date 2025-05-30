@@ -1,0 +1,14 @@
+C:\GS\EnergyEvents\EnergyEvents\bin\Debug\net8.0\EnergyEvents.exe
+C:\GS\EnergyEvents\EnergyEvents\bin\Debug\net8.0\EnergyEvents.deps.json
+C:\GS\EnergyEvents\EnergyEvents\bin\Debug\net8.0\EnergyEvents.runtimeconfig.json
+C:\GS\EnergyEvents\EnergyEvents\bin\Debug\net8.0\EnergyEvents.dll
+C:\GS\EnergyEvents\EnergyEvents\bin\Debug\net8.0\EnergyEvents.pdb
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.AssemblyInfoInputs.cache
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.AssemblyInfo.cs
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.csproj.CoreCompileInputs.cache
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.dll
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\refint\EnergyEvents.dll
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.pdb
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\EnergyEvents.genruntimeconfig.cache
+C:\GS\EnergyEvents\EnergyEvents\obj\Debug\net8.0\ref\EnergyEvents.dll
