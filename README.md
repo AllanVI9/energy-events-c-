@@ -26,10 +26,13 @@ O sistema foi idealizado para demonstrar, de forma didática, como diferentes ti
      cd energy-events
 
 2. Login:
+   
       Usuário: admin
+
+   
       Senha: 1234
 
-3. Só usar agora.
+4. Só usar agora.
 
 ## 📦 Estrutura de Pastas
 
