@@ -2,6 +2,9 @@
 
 namespace EnergyEvents.Services
 {
+    /// <summary>
+    /// Serviço responsável por exibir o menu principal da aplicação
+    /// </summary>
     public class MenuService
     {
         private readonly MonitorDeEnergia _monitor;
@@ -11,6 +14,9 @@ namespace EnergyEvents.Services
         private readonly List<Dispositivo> _equipamentos;
         private readonly List<string> _falhas;
 
+        /// <summary>
+        /// Inicializa os serviços necessários para a interação com o usuário.
+        /// </summary>
         public MenuService(
             MonitorDeEnergia monitor,
             Logger logger,
@@ -36,7 +42,7 @@ namespace EnergyEvents.Services
                 Console.WriteLine("\n--- MENU PRINCIPAL ---");
                 Console.WriteLine("1. Editar Tensão Atual");
                 Console.WriteLine("2. Exibir Status dos Dispositivos");
-                Console.WriteLine("3. Exibir Falhas Registradas");
+                Console.WriteLine("3. Exibir Saídas do Sistema");
                 Console.WriteLine("4. Porcentagem de Equipamentos Ligados");
                 Console.WriteLine("5. Verificar Voltagem Atual");
                 Console.WriteLine("6. Sair");
@@ -51,7 +57,7 @@ namespace EnergyEvents.Services
                         _relatorio.ExibirStatus();
                         break;
                     case "3":
-                        ExibirFalhas();
+                        ExibirSaidas();
                         break;
                     case "4":
                         MostrarPercentualLigados();
@@ -70,6 +76,10 @@ namespace EnergyEvents.Services
             }
         }
 
+        /// <summary>
+        /// Solicita ao usuário que simule a mudança da tensão
+        /// processa os efeitos sobre os dispositivos e registra os eventos.
+        /// </summary>
         private void EditarTensao()
         {
             Console.Write("\nDigite a tensão atual (ex: 110): ");
@@ -102,15 +112,21 @@ namespace EnergyEvents.Services
             }
         }
 
-        private void ExibirFalhas()
+        /// <summary>
+        /// Exibe todas as saídas registradas até o momento.
+        /// </summary>
+        private void ExibirSaidas()
         {
-            Console.WriteLine("\nFalhas registradas:");
+            Console.WriteLine("\nSaídas registradas:");
             if (_falhas.Count == 0)
-                Console.WriteLine("Nenhuma falha registrada.");
+                Console.WriteLine("Nenhuma saída registrada.");
             else
                 _falhas.ForEach(Console.WriteLine);
         }
 
+        /// <summary>
+        /// Exibe a porcentagem de quantos aparelhos estão ligados no momento.
+        /// </summary>
         private void MostrarPercentualLigados()
         {
             int total = _equipamentos.Count;

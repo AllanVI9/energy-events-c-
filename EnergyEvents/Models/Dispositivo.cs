@@ -1,5 +1,8 @@
 ﻿namespace EnergyEvents.Models;
 
+/// <summary>
+/// Representa um dispositivo utilizado no sistema de gerenciamento de energia.
+/// </summary>
 public abstract class Dispositivo
 {
     public string Nome { get; set; }

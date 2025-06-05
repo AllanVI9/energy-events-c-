@@ -4,6 +4,9 @@ namespace EnergyEvents.Services;
 
 public class Relatorio
 {
+    /// <summary>
+    /// Serviço responsável por gerar e exibir status atual dos dispositivos.
+    /// </summary>
     private readonly List<Dispositivo> _dispositivos;
 
     public Relatorio(List<Dispositivo> dispositivos)

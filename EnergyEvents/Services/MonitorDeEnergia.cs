@@ -4,6 +4,9 @@ namespace EnergyEvents.Services;
 
 public class MonitorDeEnergia
 {
+    /// <summary>
+    /// Serviço responsável por simular e monitorar a tensão da rede elétrica
+    /// </summary>
     private readonly List<Dispositivo> _dispositivos;
 
     public MonitorDeEnergia(List<Dispositivo> dispositivos)
@@ -13,6 +16,9 @@ public class MonitorDeEnergia
     
     private double _ultimaTensao;
 
+    /// <summary>
+    /// Verifica a tensão fornecida e ajusta o estado dos dispositivos conforme necessário.
+    /// </summary>
     public string VerificarTensao(double tensao)
     {
         _ultimaTensao = tensao;

@@ -1,10 +1,17 @@
 ﻿namespace EnergyEvents.Services
 {
+    /// <summary>
+    /// Serviço responsável por realizar a autenticação do usuário no sistema.
+    /// </summary>
     public class LoginService
     {
+
         private const string UsuarioCorreto = "admin";
         private const string SenhaCorreta = "1234";
-
+        /// <summary>
+        /// Realiza o processo de autenticação solicitando usuário e senha via console.
+        /// O loop continua até que as credenciais corretas sejam informadas pelo usuário.
+        /// </summary>
         public bool Autenticar()
         {
             while (true)
@@ -25,6 +32,10 @@
             }
         }
 
+        /// <summary>
+        /// Lê a senha do console sem exibir os caracteres digitados (substitui por '*').
+        /// Permite apagar.
+        /// </summary>
         private string LerSenha()
         {
             string senha = "";
